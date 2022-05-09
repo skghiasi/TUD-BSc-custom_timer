@@ -20,7 +20,7 @@ output_pins_list = [38 , 40 , 42]
 voltage_initial_level = 0
 ```
 
-And the full code within the ```if __name__ == "__main__"```: 
+And the full code within the ```if __name__ == "__main__"``` block: 
 ```python 
 voltage_pulse_durations_list = [10 , 20 , 30 , 40 , 50]
 output_pins_list = [38 , 40 , 42]
