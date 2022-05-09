@@ -41,6 +41,19 @@ def generate_code(output_filepath , output_filename , template_file_fullpath , i
         outfile.write(template_text)
 
 
-generate_code("." , "genfile" , "./ino_template" , 0 ,  [10,20,30,40,50] , [40])
+if __name__ == "__main__": 
+    voltage_pulse_durations_list = [10 , 20 , 30 , 40 , 50] #TODO: refer to the readme file
+    output_pins_list = [38 , 40 , 42] #TODO: refer to the readme file
+    voltage_initial_level = 0 #TODO: refer to the readme file
+
+    output_file_path = "."
+    output_file_name = "genfile"
+
+
+    generate_code("." , "genfile" , 
+                    "./ino_template" , 
+                    voltage_initial_level ,  
+                    voltage_pulse_durations_list ,
+                    output_pins_list)
 
     
