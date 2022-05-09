@@ -48,10 +48,11 @@ if __name__ == "__main__":
 
     output_file_path = "."
     output_file_name = "genfile"
+    template_code_address = "./ino_template"
 
-
-    generate_code("." , "genfile" , 
-                    "./ino_template" , 
+    generate_code(output_file_path, 
+                    output_file_name , 
+                    template_code_address , 
                     voltage_initial_level ,  
                     voltage_pulse_durations_list ,
                     output_pins_list)
