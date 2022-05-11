@@ -12,7 +12,7 @@ The python script has to be executed from within this folder, otherwise, the add
 
 We have the case where the following pulse shape has to be made, and it has to appear on pins 38, 40, and 42 of Arduino (all pins show the same pulse, useful when multiple liquid crystals are used).
 
-<img src = https://github.com/skghiasi/TUD-BSc-custom_timer/blob/master/example_graph.svg>
+<img src = https://github.com/skghiasi/TUD-BSc-custom_timer/blob/master/example_graph.svg width="100%">
 
 The TODO parts in the code have to change as follows: 
 
